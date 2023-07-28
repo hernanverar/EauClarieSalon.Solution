@@ -1,12 +1,15 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
 
-namespace HairSalon.Models;
+namespace HairSalon.Controllers
 {
-public class HairSalonContextModel
+    public class HomeController : Controller
     {
-    public dbSet<Client> Clients { get; set; }
-    public DbSet<Stylist> Stylists { get; set; }
 
-    public HairSalonContextModel(DbContextOptions options) : base(options) { }
+        [HttpGet("/")]
+        public ActionResult Index()
+        {
+            return View();
+        }
+
     }
 }
