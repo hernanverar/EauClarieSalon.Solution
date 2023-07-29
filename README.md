@@ -21,7 +21,7 @@
 git clone https://github.com/hernanverar/EauClarieSalon.Solution.git
 
 * In the terminal, navigate to the console application with the command:
-> cd Salon.Solution/HairSalon
+> cd EauClareiSalon.Solution/HairSalon
 * Once in the "HairSalon" directory, create a new file called appsettings.json
 * Within appsettings.json, put in the following code, replacing the [YOURUSERNAME] and [YOURPASSWORD] values with your own username and password for MySQL.
 >{
