@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.27, for macos11 (x86_64)
 --
--- Host: localhost    Database: brent_hickman
+-- Host: localhost    Database: hernan_verar
 -- ------------------------------------------------------
 -- Server version	8.0.27
 
