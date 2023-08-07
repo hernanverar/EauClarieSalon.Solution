@@ -1,0 +1,15 @@
+
+body {
+  background-color: rgb(177, 241, 241);
+  min-width: 55%;
+  max-width: 850px;
+  margin: 5% 10% 10% 20%;
+  align-content: center;
+}
+p, h1, h3 {
+  background-color: rgb(231, 163, 246);
+  width: 90%;
+  padding: 2% 2% 2% 2%;
+  margin: 5% 5% 5% 5%;
+  align-content: center;
+}
